@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-11-02 22:10+0000\n"
+"POT-Creation-Date: 2015-11-11 05:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -588,15 +588,6 @@ msgstr "নিয়ম যোগ করুন"
 msgid "Add/Remove Hosts to Aggregate"
 msgstr "সমুহতে হোস্ট যোগ করুন/সরিয়ে ফেলুন"
 
-msgid "AddFirewall"
-msgstr "ফায়ারওয়াল যোগ করুন"
-
-msgid "AddPolicy"
-msgstr "নীতি যোগ করুন"
-
-msgid "AddRule"
-msgstr "নিয়ম যোগ করুন"
-
 #, python-format
 msgid "Added Firewall \"%s\"."
 msgstr "যোগ করা ফায়ারওয়াল \"%s\"."
@@ -1127,23 +1118,14 @@ msgstr "বন্ধ করুন"
 msgid "Cluster"
 msgstr "ক্লস্টার"
 
-msgid "Cluster Details"
-msgstr "ক্লস্টার বিশদ"
-
 msgid "Cluster Instances"
 msgstr "ক্লস্টার উদাহরণ"
 
 msgid "Cluster Name"
 msgstr "ক্লস্টার নাম"
 
-msgid "Cluster Overview"
-msgstr "ক্লস্টার একনজর"
-
 msgid "Cluster Template"
 msgstr "ক্লস্টার টেমপ্লেট"
-
-msgid "Cluster Template Details"
-msgstr "ক্লস্টার টেমপ্লেট বিশদ"
 
 msgid "Cluster Template Name"
 msgstr "ক্লস্টার টেমপ্লেট নাম"
@@ -1797,9 +1779,6 @@ msgstr "ডেটা প্রক্রিয়ণ"
 msgid "Data Processing Plugin Details"
 msgstr "ডেটা প্রক্রিয়ণ প্লাগইন বিশদ"
 
-msgid "Data Processing Plugin Overview"
-msgstr "ডেটা প্রক্রিয়ণ প্লাগইন একনজর"
-
 msgid "Data Processing Plugins"
 msgstr "ডেটা প্রক্রিয়ণ প্লাগইন"
 
@@ -1812,12 +1791,6 @@ msgid ""
 msgstr ""
 "ডেটা প্রক্রিয়ণ বিভিন্ন ভাণ্ডার অবস্থান বিকল্প প্রদান করে. আপনি উদাহরণে সংযুক্ত অস্থায়ী "
 "ড্রাইভ বা সিন্ডার ভলিয়্যুম বাছতে পারেন."
-
-msgid "Data Source Details"
-msgstr "ডেটা উত্স বিশদ"
-
-msgid "Data Source Overview"
-msgstr "ডেটা উত্স একনজর"
 
 msgid "Data Source Type"
 msgstr "ডেটা উত্স প্রকার"
@@ -2825,17 +2798,8 @@ msgstr "ফিঙ্গারপ্রিন্ট"
 msgid "Firewall %s was successfully updated."
 msgstr "ফায়ারওয়াল %s সফলভাবে আপডেট হয়েছিল."
 
-msgid "Firewall Details"
-msgstr "ফায়ারওয়াল বিশদ"
-
 msgid "Firewall Policies"
 msgstr "ফায়ারওয়াল নীতিগুলি"
-
-msgid "Firewall Policy Details"
-msgstr "ফায়ারওয়াল নীতি বিশদ"
-
-msgid "Firewall Rule Details"
-msgstr "ফায়ারওয়াল নিয়ম বিশদ"
 
 msgid "Firewall Rules"
 msgstr "ফায়ারওয়াল নিয়মগুলি"
@@ -3312,9 +3276,6 @@ msgstr "ইমেজ"
 msgid "Image (Glance)"
 msgstr "ইমেজ (গ্ল্যান্স)"
 
-msgid "Image Details"
-msgstr "ইমেজ বিশদ"
-
 msgid "Image File"
 msgstr "ইমেজ ফাইল"
 
@@ -3329,9 +3290,6 @@ msgstr "ইমেজের নাম"
 
 msgid "Image Name ="
 msgstr "ইমেজ নাম ="
-
-msgid "Image Overview"
-msgstr "ইমেজ একনজর"
 
 msgid "Image Registry"
 msgstr "ইমেজ রেজিষ্ট্রি"
@@ -3463,9 +3421,6 @@ msgstr "উদাহরণ কনসোল লগ"
 msgid "Instance Count"
 msgstr "উদাহরণ গণনা"
 
-msgid "Instance Details"
-msgstr "উদাহরণ বিশদ"
-
 msgid "Instance ID"
 msgstr "উদাহরণ ID"
 
@@ -3551,20 +3506,8 @@ msgstr "কাজ"
 msgid "Job Binaries"
 msgstr "কার্য বাইনারী"
 
-msgid "Job Binary Details"
-msgstr "কার্য বাইনারী বিশদ"
-
-msgid "Job Binary Overview"
-msgstr "কার্য বাইনারী একনজর"
-
 msgid "Job Configuration"
 msgstr "কার্য রূপাকৃতি"
-
-msgid "Job Details"
-msgstr "কাজের বিশদ"
-
-msgid "Job Execution Details"
-msgstr "কার্য সম্পাদন বিশদ"
 
 msgid "Job Execution ID"
 msgstr "কার্য সম্পাদন ID"
@@ -4328,9 +4271,6 @@ msgstr "কোনো ভলিয়্যুম লভ্য নয়"
 msgid "Node Configurations"
 msgstr "নোড রূপাকৃতি"
 
-msgid "Node Group Template Details"
-msgstr "নোড শ্রেণি টেমপ্লেট বিশদ"
-
 #, python-format
 msgid "Node Group Template copy %s created"
 msgstr "নোড শ্রেণি টেমপ্লেট কপি %s তৈরি করা"
@@ -4356,9 +4296,6 @@ msgstr "নোড শ্রেণি ক্লস্টার"
 
 msgid "Node processes are not specified"
 msgstr "নোড প্রক্রিয়া  নির্দিষ্ট নয়"
-
-msgid "Nodegroup Template Details"
-msgstr "নোডশ্রেণি টেমপ্লেট বিশদ"
 
 msgid "Nodes Count"
 msgstr "নোডের গণনা"
@@ -4709,9 +4646,6 @@ msgstr "পোর্ট %s সফলভাবে তৈরি হয়েছিল
 msgid "Port %s was successfully updated."
 msgstr "পোর্ট %s সফলভাবে আপডেট হয়েছিল."
 
-msgid "Port Details"
-msgstr "পোর্ট বিশদ"
-
 msgid "Port ID"
 msgstr "পোর্ট ID"
 
@@ -5023,9 +4957,6 @@ msgstr "ভলিয়্যুম \"%s\" পুনঃআয়তন করছে"
 msgid "Resource"
 msgstr "উত্স"
 
-msgid "Resource Details"
-msgstr "উত্স বিশদ"
-
 msgid "Resource ID"
 msgstr "উত্স ID"
 
@@ -5118,9 +5049,6 @@ msgstr "রাউটার %s সফলভাবে তৈরি হয়েছি
 #, python-format
 msgid "Router %s was successfully updated."
 msgstr "রাউটার %s সফলভাবে আপডেট হয়েছিল."
-
-msgid "Router Details"
-msgstr "রাউটার বিশদ"
 
 msgid "Router ID"
 msgstr "রাউটার ID"
@@ -5667,9 +5595,6 @@ msgstr "ডেটাবেস উদাহরণের জন্য নতুন
 msgid "Specs"
 msgstr "স্পেক"
 
-msgid "Stack Details"
-msgstr "স্টেক বিশদ"
-
 msgid "Stack Events"
 msgstr "স্ট্যাক ঘটনা"
 
@@ -5678,9 +5603,6 @@ msgstr "স্ট্যাক ID"
 
 msgid "Stack Name"
 msgstr "স্ট্যাক নাম"
-
-msgid "Stack Overview"
-msgstr "স্ট্যাক একনজর"
 
 msgid "Stack Parameters"
 msgstr "স্ট্যাক পরিশর্ত"
@@ -5783,9 +5705,6 @@ msgstr "সাবনেট ID"
 
 msgid "Subnet Name"
 msgstr "সাবনেট নাম"
-
-msgid "Subnet Overview"
-msgstr "সাবনেট একনজর"
 
 msgid "Subnet list can not be retrieved."
 msgstr "সাবনেট তালিকা পুনরুদ্ধার করা যেতে পারে না."
@@ -5958,9 +5877,6 @@ msgstr "টেনপ্লেট ফাইল"
 
 msgid "Template Name"
 msgstr "টেমপ্লেটের নাম"
-
-msgid "Template Overview"
-msgstr "টেমপ্লেট একনজর"
 
 msgid "Template Source"
 msgstr "টেমপ্লেট উত্স"
@@ -7880,13 +7796,6 @@ msgstr "ভলিয়্যুম (সিন্ডার)"
 msgid "Volume Backup"
 msgstr "ভলিয়্যুম ব্যাকআপ"
 
-msgid "Volume Backup Details"
-msgstr "ভলিয়্যুম ব্যাকআপ বিশদ"
-
-#, python-format
-msgid "Volume Backup Overview: %(backup_display_name)s"
-msgstr "ভলিয়্যুম ব্যাকআপ একনজর: %(backup_display_name)s"
-
 msgid "Volume Backup:"
 msgstr "ভলিয়্যুম ব্যাকআপ:"
 
@@ -7900,26 +7809,17 @@ msgstr ""
 "বস্তু ভাণ্ডার সেবা ব্যবহার করে ভলিয়্যুম ব্যাকআপ সঞ্চিত. একটি ব্যাকআপ তৈরি করার "
 "উদ্দেশ্যে এই সেবা অবশ্যই সক্রিয় থাকা চাই."
 
-msgid "Volume Details"
-msgstr "ভলিয়্যুম বিশদ"
-
 msgid "Volume Limits"
 msgstr "ভলিয়্যুম সীমা"
 
 msgid "Volume Name"
 msgstr "ভলিয়্যুম নাম"
 
-msgid "Volume Overview"
-msgstr "ভলিয়্যুম একনজর"
-
 msgid "Volume Size"
 msgstr "ভলিয়্যুম আয়তন"
 
 msgid "Volume Snapshot"
 msgstr "ভলিয়্যুম স্ন্যাপশট"
-
-msgid "Volume Snapshot Details"
-msgstr "ভলিয়্যুম স্ন্যাপশট বিশদ"
 
 msgid "Volume Snapshot Overview"
 msgstr "ভলিয়্যুম স্ন্যাপশট একনজর"

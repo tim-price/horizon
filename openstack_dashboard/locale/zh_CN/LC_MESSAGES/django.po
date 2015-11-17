@@ -27,7 +27,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-11-05 22:23+0000\n"
+"POT-Creation-Date: 2015-11-12 12:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -430,9 +430,6 @@ msgstr ""
 msgid ""
 "\"Some flavors not meeting minimum image requirements have been disabled.\""
 msgstr "\"一些未能达到image最低要求的特性已被禁用。\""
-
-msgid "\"Users\""
-msgstr "\"用户\""
 
 #, python-format
 msgid "%(conf_name)s: %(conf_val)s"
@@ -962,15 +959,6 @@ msgstr "添加、修改、删除该类型的块设备卷对应的 QoS 策略。"
 
 msgid "Add/Remove Hosts to Aggregate"
 msgstr "添加/删除集合中的主机"
-
-msgid "AddFirewall"
-msgstr "添加防火墙"
-
-msgid "AddPolicy"
-msgstr "增加策略"
-
-msgid "AddRule"
-msgstr "添加规则"
 
 #, python-format
 msgid "Added Firewall \"%s\"."
@@ -1775,15 +1763,6 @@ msgstr "集群数量"
 msgid "Cluster Creation Guide"
 msgstr "创建集群向导"
 
-msgid "Cluster Detail"
-msgstr "集群详细信息"
-
-msgid "Cluster Details"
-msgstr "集群详细信息"
-
-msgid "Cluster Details: {{ cluster.name }}"
-msgstr "集群详细信息： {{ cluster.name }}"
-
 msgid "Cluster Events"
 msgstr "集群事件"
 
@@ -1796,9 +1775,6 @@ msgstr "集群实例"
 msgid "Cluster Name"
 msgstr "集群名称"
 
-msgid "Cluster Overview"
-msgstr "集群概要"
-
 msgid "Cluster Size"
 msgstr "集群大小"
 
@@ -1808,9 +1784,6 @@ msgstr "集群模板"
 #, python-format
 msgid "Cluster Template %s updated"
 msgstr "集群模板%s已更新"
-
-msgid "Cluster Template Details"
-msgstr "集群模板详情"
 
 msgid "Cluster Template Name"
 msgstr "集群模板名称"
@@ -2634,9 +2607,6 @@ msgstr "数据处理向导"
 msgid "Data Processing Plugin Details"
 msgstr "数据处理插件详细信息"
 
-msgid "Data Processing Plugin Overview"
-msgstr "数据处理插件概要"
-
 msgid "Data Processing Plugins"
 msgstr "数据处理插件"
 
@@ -2652,12 +2622,6 @@ msgstr ""
 
 msgid "Data Source"
 msgstr "数据源"
-
-msgid "Data Source Details"
-msgstr "数据源详细信息"
-
-msgid "Data Source Overview"
-msgstr "数据源概要"
 
 msgid "Data Source Type"
 msgstr "数据源类型"
@@ -4350,17 +4314,8 @@ msgstr "正在完成重建或者迁移"
 msgid "Firewall %s was successfully updated."
 msgstr "防火墙 %s 被成功更新。"
 
-msgid "Firewall Details"
-msgstr "防火墙详情"
-
 msgid "Firewall Policies"
 msgstr "防火墙策略"
-
-msgid "Firewall Policy Details"
-msgstr "防火墙策略详情"
-
-msgid "Firewall Rule Details"
-msgstr "防火墙规则详情"
 
 msgid "Firewall Rules"
 msgstr "防火墙规则"
@@ -4932,12 +4887,6 @@ msgctxt "Task status of an Instance"
 msgid "Image Backup"
 msgstr "镜像备份"
 
-msgid "Image Details"
-msgstr "镜像详情 "
-
-msgid "Image Details: {{ image.name }}"
-msgstr "镜像详情： {{ image.name }}"
-
 msgid "Image File"
 msgstr "镜像文件"
 
@@ -4955,9 +4904,6 @@ msgstr "镜像名称"
 
 msgid "Image Name ="
 msgstr "镜像名称 ="
-
-msgid "Image Overview"
-msgstr "镜像概况"
 
 msgctxt "Task status of an Instance"
 msgid "Image Pending Upload"
@@ -5138,12 +5084,6 @@ msgstr "云主机控制台日志"
 msgid "Instance Count"
 msgstr "云主机数量"
 
-msgid "Instance Details"
-msgstr "实例详情"
-
-msgid "Instance Details: {{ instance.name }}"
-msgstr "实例详情：{{ instance.name }}"
-
 msgid "Instance ID"
 msgstr "云主机ID"
 
@@ -5253,20 +5193,8 @@ msgstr "任务"
 msgid "Job Binaries"
 msgstr "任务二进制"
 
-msgid "Job Binary Details"
-msgstr "任务二进制文件详情"
-
-msgid "Job Binary Overview"
-msgstr "任务二进制文件概览"
-
 msgid "Job Configuration"
 msgstr "任务配置"
-
-msgid "Job Details"
-msgstr "任务详情"
-
-msgid "Job Execution Details"
-msgstr "任务执行详细信息"
 
 msgid "Job Execution Guide"
 msgstr "任务执行向导"
@@ -5277,14 +5205,8 @@ msgstr "任务执行ID"
 msgid "Job Guide"
 msgstr "任务指南"
 
-msgid "Job Overview"
-msgstr "任务概览"
-
 msgid "Job Template"
 msgstr "任务模板"
-
-msgid "Job Template Details"
-msgstr "任务模板详情"
 
 msgid "Job Templates"
 msgstr "任务模板"
@@ -5970,12 +5892,6 @@ msgstr "命名空间 %s 已经被创建。"
 msgid "Namespace Definition Source"
 msgstr "命名空间定义源"
 
-msgid "Namespace Details"
-msgstr "命名空间细节"
-
-msgid "Namespace Details: {{ namespace.namespace }}"
-msgstr "命名空间细节：{{ namespace.namespace }}"
-
 msgid "Namespace JSON"
 msgstr "命名空间JSON"
 
@@ -6366,9 +6282,6 @@ msgstr "节点组"
 msgid "Node Group Template %s updated"
 msgstr "节点组模板 %s 已更新"
 
-msgid "Node Group Template Details"
-msgstr "节点组模板详细信息"
-
 #, python-format
 msgid "Node Group Template copy %s created"
 msgstr "节点组模板复制 %s 已创建"
@@ -6394,9 +6307,6 @@ msgstr "节点组集群"
 
 msgid "Node processes are not specified"
 msgstr "节点处理没有被指定"
-
-msgid "Nodegroup Template Details"
-msgstr "节点组模板详细信息"
 
 msgid "Nodes Count"
 msgstr "节点数量"
@@ -6921,9 +6831,6 @@ msgstr "成功创建%s端口"
 #, python-format
 msgid "Port %s was successfully updated."
 msgstr "端口%s更新成功"
-
-msgid "Port Details"
-msgstr "端口详情"
 
 msgid "Port ID"
 msgstr "端口ID"
@@ -7478,12 +7385,6 @@ msgstr "正在调整卷 \"%s\" 的大小"
 msgid "Resource"
 msgstr "资源"
 
-msgid "Resource Details"
-msgstr "资源详情"
-
-msgid "Resource Details: {{ resource.resource_name }}"
-msgstr "资源详情：{{ resource.resource_name }}"
-
 msgid "Resource ID"
 msgstr "资源ID"
 
@@ -7492,12 +7393,6 @@ msgstr "资源元数据"
 
 msgid "Resource Overview"
 msgstr "资源概况"
-
-msgid "Resource Type"
-msgstr "资源类型"
-
-msgid "Resource Type Details"
-msgstr "资源类型详情"
 
 msgid "Resource Types"
 msgstr "资源类型"
@@ -7688,9 +7583,6 @@ msgstr "路由器 %s 创建成功。"
 #, python-format
 msgid "Router %s was successfully updated."
 msgstr "路由 %s 成功更新"
-
-msgid "Router Details"
-msgstr "路由详情"
 
 msgid "Router ID"
 msgstr "路由id"
@@ -8588,12 +8480,6 @@ msgstr ""
 msgid "Specs"
 msgstr "规格"
 
-msgid "Stack Details"
-msgstr "栈详情"
-
-msgid "Stack Details: {{ stack.stack_name }}"
-msgstr "栈详情：{{ stack.stack_name }}"
-
 msgid "Stack Events"
 msgstr "栈事件"
 
@@ -8602,9 +8488,6 @@ msgstr "栈ID"
 
 msgid "Stack Name"
 msgstr "栈名"
-
-msgid "Stack Overview"
-msgstr "栈概况"
 
 msgid "Stack Parameters"
 msgstr "栈参数"
@@ -8747,9 +8630,6 @@ msgstr "子网ID"
 
 msgid "Subnet Name"
 msgstr "子网名称"
-
-msgid "Subnet Overview"
-msgstr "子网概况"
 
 msgid "Subnet list can not be retrieved."
 msgstr "无法获取子网列表"
@@ -9009,9 +8889,6 @@ msgstr "模板文件"
 
 msgid "Template Name"
 msgstr "模板名称"
-
-msgid "Template Overview"
-msgstr "模板概要"
 
 msgid "Template Source"
 msgstr "模板源"
@@ -11025,9 +10902,6 @@ msgstr "无法上传对象。"
 msgid "Unable to upload volume to image for volume: \"%s\""
 msgstr "无法为卷: \"%s\"上传卷到镜像"
 
-msgid "Undefined"
-msgstr "无定义"
-
 msgid "Unit"
 msgstr "单元"
 
@@ -11532,16 +11406,6 @@ msgstr "云硬盘 (Cinder)"
 msgid "Volume Backup"
 msgstr "卷备份"
 
-msgid "Volume Backup Details"
-msgstr "卷备份详情"
-
-msgid "Volume Backup Details: {{ backup.name }}"
-msgstr "备份卷详情： {{ backup.name }}"
-
-#, python-format
-msgid "Volume Backup Overview: %(backup_display_name)s"
-msgstr "云硬盘备份概要：%(backup_display_name)s"
-
 msgid "Volume Backup:"
 msgstr "卷备份:"
 
@@ -11552,12 +11416,6 @@ msgid ""
 "Volume Backups are stored using the Object Storage service. You must have "
 "this service activated in order to create a backup."
 msgstr "卷备份使用的是对象存储服务。你必须激活这个对象存储服务才能创建备份。"
-
-msgid "Volume Details"
-msgstr "云硬盘详情"
-
-msgid "Volume Details: {{ volume.name }}"
-msgstr "卷详细信息:{{ volume.name }}"
 
 msgid "Volume Encryption Details"
 msgstr "存储卷加密详情"
@@ -11578,20 +11436,11 @@ msgstr "云硬盘限度"
 msgid "Volume Name"
 msgstr "云硬盘名称"
 
-msgid "Volume Overview"
-msgstr "云硬盘概览"
-
 msgid "Volume Size"
 msgstr "云硬盘大小"
 
 msgid "Volume Snapshot"
 msgstr "云硬盘快照"
-
-msgid "Volume Snapshot Details"
-msgstr "云硬盘快照详情"
-
-msgid "Volume Snapshot Details: {{ snapshot.name }}"
-msgstr "卷快照详情: {{ snapshot.name }}"
 
 msgid "Volume Snapshot Overview"
 msgstr "云硬盘快照概览"

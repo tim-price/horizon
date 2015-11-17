@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2015-11-05 22:23+0000\n"
+"POT-Creation-Date: 2015-11-12 12:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -489,9 +489,6 @@ msgid ""
 msgstr ""
 "\"Alcuni flavor che non soddisfano i requisiti minimi dell'immagine, sono "
 "stati disabilitati.\""
-
-msgid "\"Users\""
-msgstr "\"Utenti\""
 
 #, python-format
 msgid "%(conf_name)s: %(conf_val)s"
@@ -1048,15 +1045,6 @@ msgstr ""
 
 msgid "Add/Remove Hosts to Aggregate"
 msgstr "Aggiungi/Rimuovi host in Aggregato"
-
-msgid "AddFirewall"
-msgstr "AddFirewall"
-
-msgid "AddPolicy"
-msgstr "AddPolicy"
-
-msgid "AddRule"
-msgstr "AddRule"
 
 #, python-format
 msgid "Added Firewall \"%s\"."
@@ -1904,15 +1892,6 @@ msgstr "Conteggio cluster"
 msgid "Cluster Creation Guide"
 msgstr "Guida per la creazione cluster"
 
-msgid "Cluster Detail"
-msgstr "Dettagli cluster"
-
-msgid "Cluster Details"
-msgstr "Dettagli cluster"
-
-msgid "Cluster Details: {{ cluster.name }}"
-msgstr "Dettagli cluster: {{ cluster.name }}"
-
 msgid "Cluster Events"
 msgstr "Eventi cluster"
 
@@ -1925,9 +1904,6 @@ msgstr "Istanze cluster"
 msgid "Cluster Name"
 msgstr "Nome cluster"
 
-msgid "Cluster Overview"
-msgstr "Panoramica sul cluster"
-
 msgid "Cluster Size"
 msgstr "Dimensione cluster"
 
@@ -1937,9 +1913,6 @@ msgstr "Template cluster"
 #, python-format
 msgid "Cluster Template %s updated"
 msgstr "Template cluster %s aggiornato"
-
-msgid "Cluster Template Details"
-msgstr "Dettagli template cluster"
 
 msgid "Cluster Template Name"
 msgstr "Nome template cluster"
@@ -2787,9 +2760,6 @@ msgstr "Guide all'elaborazione dei dati"
 msgid "Data Processing Plugin Details"
 msgstr "Dettali plugin Data Processing"
 
-msgid "Data Processing Plugin Overview"
-msgstr "Plugin Data Processing - Panoramica"
-
 msgid "Data Processing Plugins"
 msgstr "Plugin Data Processing"
 
@@ -2806,12 +2776,6 @@ msgstr ""
 
 msgid "Data Source"
 msgstr "Origine dati"
-
-msgid "Data Source Details"
-msgstr "Dettagli origine dati"
-
-msgid "Data Source Overview"
-msgstr "Panoramica origine dati"
 
 msgid "Data Source Type"
 msgstr "Tipo origine dati"
@@ -4652,17 +4616,8 @@ msgstr "Completamento del ridimensionamento o della migrazione"
 msgid "Firewall %s was successfully updated."
 msgstr "Il firewall %s è stato aggiornato correttamente."
 
-msgid "Firewall Details"
-msgstr "Dettagli del firewall"
-
 msgid "Firewall Policies"
 msgstr "Politiche del firewall"
-
-msgid "Firewall Policy Details"
-msgstr "Dettagli della politica del firewall"
-
-msgid "Firewall Rule Details"
-msgstr "Dettagli della regola del firewall"
 
 msgid "Firewall Rules"
 msgstr "Regole del firewall"
@@ -5271,12 +5226,6 @@ msgctxt "Task status of an Instance"
 msgid "Image Backup"
 msgstr "Backup immagine"
 
-msgid "Image Details"
-msgstr "Dettagli immagine"
-
-msgid "Image Details: {{ image.name }}"
-msgstr "Dettagli immagine: {{ image.name }}"
-
 msgid "Image File"
 msgstr "File immagine"
 
@@ -5291,9 +5240,6 @@ msgstr "Nome dell'Immagine"
 
 msgid "Image Name ="
 msgstr "Nome immagine ="
-
-msgid "Image Overview"
-msgstr "Panoramica sulle immagini"
 
 msgctxt "Task status of an Instance"
 msgid "Image Pending Upload"
@@ -5478,12 +5424,6 @@ msgstr "Log console dell'istanza"
 msgid "Instance Count"
 msgstr "Conta Istanza"
 
-msgid "Instance Details"
-msgstr "Dettagli istanza"
-
-msgid "Instance Details: {{ instance.name }}"
-msgstr "Dettagli istanza: {{ instance.name }}"
-
 msgid "Instance ID"
 msgstr "ID istanza"
 
@@ -5607,20 +5547,8 @@ msgstr "Job"
 msgid "Job Binaries"
 msgstr "Job binary"
 
-msgid "Job Binary Details"
-msgstr "Dettagli job binary"
-
-msgid "Job Binary Overview"
-msgstr "Panoramica job binary"
-
 msgid "Job Configuration"
 msgstr "Configurazione job"
-
-msgid "Job Details"
-msgstr "Dettagli job"
-
-msgid "Job Execution Details"
-msgstr "Dettagli esecuzione job"
 
 msgid "Job Execution Guide"
 msgstr "Guida per l'esecuzione del job"
@@ -5631,14 +5559,8 @@ msgstr "ID esecuzione job"
 msgid "Job Guide"
 msgstr "Guida per il job"
 
-msgid "Job Overview"
-msgstr "Panoramica sul job"
-
 msgid "Job Template"
 msgstr "Template job"
-
-msgid "Job Template Details"
-msgstr "Dettagli template job"
 
 msgid "Job Templates"
 msgstr "Template job"
@@ -6359,12 +6281,6 @@ msgstr "Lo spazio dei nomi %s è stato creato."
 msgid "Namespace Definition Source"
 msgstr "Origine definizione spazio dei nomi"
 
-msgid "Namespace Details"
-msgstr "Dettagli spazio dei nomi"
-
-msgid "Namespace Details: {{ namespace.namespace }}"
-msgstr "Dettagli spazio dei nomi: {{ namespace.namespace }}"
-
 msgid "Namespace JSON"
 msgstr "JSON spazio dei nomi"
 
@@ -6773,9 +6689,6 @@ msgstr "Gruppo nodi"
 msgid "Node Group Template %s updated"
 msgstr "Template gruppo nodi %s aggiornato"
 
-msgid "Node Group Template Details"
-msgstr "Dettagli template gruppo nodi"
-
 #, python-format
 msgid "Node Group Template copy %s created"
 msgstr "Copia del template gruppo nodi %s creata"
@@ -6801,9 +6714,6 @@ msgstr "Cluster gruppo nodi"
 
 msgid "Node processes are not specified"
 msgstr "I processi del nodo non sono specificati"
-
-msgid "Nodegroup Template Details"
-msgstr "Dettagli template gruppo nodi"
 
 msgid "Nodes Count"
 msgstr "Conteggio nodi"
@@ -7354,9 +7264,6 @@ msgstr "La porta %s è stata creata con successo."
 #, python-format
 msgid "Port %s was successfully updated."
 msgstr "La porta %s è stata aggiornata con successo."
-
-msgid "Port Details"
-msgstr "Dettagli porta"
 
 msgid "Port ID"
 msgstr "ID porta"
@@ -7929,12 +7836,6 @@ msgstr "Ridimensionamento del volume \"%s\""
 msgid "Resource"
 msgstr "Risorsa"
 
-msgid "Resource Details"
-msgstr "Dettagli risorsa"
-
-msgid "Resource Details: {{ resource.resource_name }}"
-msgstr "Dettagli risorsa: {{ resource.resource_name }}"
-
 msgid "Resource ID"
 msgstr "ID risorsa"
 
@@ -7943,12 +7844,6 @@ msgstr "Metadati della risorsa"
 
 msgid "Resource Overview"
 msgstr "Panoramica sulla risorse"
-
-msgid "Resource Type"
-msgstr "Tipo di risorsa"
-
-msgid "Resource Type Details"
-msgstr "Dettagli tipo di risorsa"
 
 msgid "Resource Types"
 msgstr "Tipi di risorsa"
@@ -8146,9 +8041,6 @@ msgstr "Il router %s è stato creato correttamente."
 #, python-format
 msgid "Router %s was successfully updated."
 msgstr "Il router %s è stato aggiornato correttamente."
-
-msgid "Router Details"
-msgstr "Dettagli router"
 
 msgid "Router ID"
 msgstr "ID router"
@@ -9096,12 +8988,6 @@ msgstr ""
 msgid "Specs"
 msgstr "Specifiche"
 
-msgid "Stack Details"
-msgstr "Dettagli stack"
-
-msgid "Stack Details: {{ stack.stack_name }}"
-msgstr "Dettagli stack: {{ stack.stack_name }}"
-
 msgid "Stack Events"
 msgstr "Eventi stack"
 
@@ -9110,9 +8996,6 @@ msgstr "ID stack"
 
 msgid "Stack Name"
 msgstr "Nome stack"
-
-msgid "Stack Overview"
-msgstr "Panoramica stack"
 
 msgid "Stack Parameters"
 msgstr "Parametri dello stack"
@@ -9257,9 +9140,6 @@ msgstr "ID sottorete"
 
 msgid "Subnet Name"
 msgstr "Nome sottorete"
-
-msgid "Subnet Overview"
-msgstr "Panoramica sulla rete"
 
 msgid "Subnet list can not be retrieved."
 msgstr "Impossibile ottenere la lista delle sottoreti."
@@ -9532,9 +9412,6 @@ msgstr "File template"
 
 msgid "Template Name"
 msgstr "Nome template"
-
-msgid "Template Overview"
-msgstr "Panoramica sui template"
 
 msgid "Template Source"
 msgstr "Origine template"
@@ -11643,9 +11520,6 @@ msgstr "Impossibile caricare l'oggetto."
 msgid "Unable to upload volume to image for volume: \"%s\""
 msgstr "Impossibile caricare il volume nell'immagine per il volume: \"%s\""
 
-msgid "Undefined"
-msgstr "Non definito"
-
 msgid "Unit"
 msgstr "Unità"
 
@@ -12171,16 +12045,6 @@ msgstr "Volume (Cinder)"
 msgid "Volume Backup"
 msgstr "Backup del volume"
 
-msgid "Volume Backup Details"
-msgstr "Dettagli backup del volume"
-
-msgid "Volume Backup Details: {{ backup.name }}"
-msgstr "Dettagli backup del volume: {{ backup.name }}"
-
-#, python-format
-msgid "Volume Backup Overview: %(backup_display_name)s"
-msgstr "Panoramica backup del volume: %(backup_display_name)s"
-
 msgid "Volume Backup:"
 msgstr "Backup del volume:"
 
@@ -12194,12 +12058,6 @@ msgstr ""
 "I backup del volume vengono memorizzati utilizzando il servizio Object "
 "Storage. Per poter creare un backup è necessario che questo servizio sia "
 "attivo."
-
-msgid "Volume Details"
-msgstr "Dettagli del volume"
-
-msgid "Volume Details: {{ volume.name }}"
-msgstr "Dettagli volume: {{ volume.name }}"
 
 msgid "Volume Encryption Details"
 msgstr "Dettagli codifica del volume"
@@ -12220,20 +12078,11 @@ msgstr "Limiti del volume"
 msgid "Volume Name"
 msgstr "Nome volume"
 
-msgid "Volume Overview"
-msgstr "Panoramica sul volume"
-
 msgid "Volume Size"
 msgstr "Dimensione del volume"
 
 msgid "Volume Snapshot"
 msgstr "Istantanea del volume"
-
-msgid "Volume Snapshot Details"
-msgstr "Dettagli sull'istantanea del volume"
-
-msgid "Volume Snapshot Details: {{ snapshot.name }}"
-msgstr "Dettagli istantanea del volume: {{ snapshot.name }}"
 
 msgid "Volume Snapshot Overview"
 msgstr "Panoramica sull'istantanea del volume"
