@@ -230,7 +230,7 @@ def metric_data(request, instance_id, metric_name):
 
         series = []
         series.append(seriesdata)
-        jsondata = {'series': series, 'settings': {}}
+        jsondata = {'series': series, 'settings': {'axes_x': False}}
     else:
         jsondata = {'series': [], 'settings': {}}
 
